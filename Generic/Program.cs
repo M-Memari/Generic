@@ -6,7 +6,12 @@ namespace Generic
     {
         static void Main(string[] args)
         {
-            GenericList<int> listint = new GenericList<int>();
+            GenericList<int> listInt = new GenericList<int>();
+            listInt.AddItem(1);
+            GenericList<string> listString = new GenericList<string>();
+            listString.AddItem("");
+            GenericList<ExampleClass> listExamplClass = new GenericList<ExampleClass>();
+            listExamplClass.AddItem(new ExampleClass());
         }
     }
 }
